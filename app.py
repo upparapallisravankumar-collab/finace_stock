@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_BASE = "http://localhost:5000"
+API_BASE = "https://finace-stock.onrender.com"
  # FastAPI Server URL
 
 st.set_page_config(page_title="Finance MCP Dashboard", page_icon="💹", layout="wide")
@@ -126,3 +126,4 @@ if st.button("Get AI Analysis"):
 st.markdown("---")
 
 st.info("🚀 Finance MCP Dashboard Connected to FastAPI Server")
+
